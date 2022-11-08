@@ -21,15 +21,15 @@ tox
 
 Se puede lanzar en un terminal el servidor:
 ```shell
-python3 -m restlist_scripts.server
+python3 -m restauth_scripts.server
 ```
 
 Y en otro el cliente (que ejecuta código de prueba):
 ```shell
-python3 -m restlist_scripts.client
+python3 -m restauth_scripts.client
 ```
 También se puede ejecutar añadiendo el directorio ".venv/bin" al PATH del sistema y ejecutando:
 ```shell
-restlist_server
-restlist_client
+restauth_server
+restauth_client
 ```
